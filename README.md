@@ -1,5 +1,5 @@
 # PassCrack
-# Offline Hash Auditor
+# Offline Hash Cracker
 
 A fast, modular Python utility designed for executing local dictionary attacks against cryptographic hashes. 
 
@@ -16,10 +16,10 @@ Run the script from the terminal, providing the target hash and the path to your
 
 **Basic MD5 Attack:**
 ```bash
-python hash_auditor.py -t 5f4dcc3b5aa765d61d8327deb882cf99 -w rockyou.txt
+python PassCrack.py -t 5f4dcc3b5aa765d61d8327deb882cf99 -w rockyou.txt
 
 Targeting a SHA-256 Hash:
-python hash_auditor.py -t 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824 -w custom_wordlist.txt -a sha256
+python PassCrack.py -t 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824 -w custom_wordlist.txt -a sha256
 
 Available Arguments
 
